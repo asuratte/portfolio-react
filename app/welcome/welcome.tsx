@@ -51,54 +51,66 @@ export function Welcome() {
       </header>
       <section className="flex flex-col pt-6 gap-6 mx-6 max-w-6xl sm:flex-row xl:mx-auto">
         <Card className="relative mx-auto w-full max-w-md pt-0">
-          <div className="absolute inset-0 z-30 aspect-video bg-black/35" />
           <img
             src="https://placekittens.com/450/250"
             alt=""
-            className="relative z-20 aspect-video w-full object-cover brightness-60 grayscale dark:brightness-40"
+            className="relative z-20 aspect-video w-full object-cover"
           />
           <CardHeader>
             <CardTitle>Project 1</CardTitle>
-            <CardDescription>
+            <CardDescription className="text-base">
               A really good portfolio piece.
             </CardDescription>
+            <ul className="flex gap-4 mt-2">
+              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Rails</li>
+              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Tailwind</li>
+              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Accessibility</li>
+            </ul>
           </CardHeader>
-          <CardFooter>
-            <Button className="w-full">Read More</Button>
+          <CardFooter className="mt-auto">
+            <Button className="w-full">View Project</Button>
           </CardFooter>
         </Card>
         <Card className="relative mx-auto w-full max-w-md pt-0">
-          <div className="absolute inset-0 z-30 aspect-video bg-black/35" />
           <img
             src="https://placekittens.com/450/250"
             alt=""
-            className="relative z-20 aspect-video w-full object-cover brightness-60 grayscale dark:brightness-40"
+            className="relative z-20 aspect-video w-full object-cover"
           />
           <CardHeader>
             <CardTitle>Project 2</CardTitle>
             <CardDescription>
               A really good portfolio piece.
             </CardDescription>
+            <ul className="flex gap-4 mt-2">
+              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Rails</li>
+              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Tailwind</li>
+              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Accessibility</li>
+            </ul>
           </CardHeader>
-          <CardFooter>
-            <Button className="w-full">Read More</Button>
+          <CardFooter className="mt-auto">
+            <Button className="w-full">View Project</Button>
           </CardFooter>
         </Card>
         <Card className="relative mx-auto w-full max-w-md pt-0">
-          <div className="absolute inset-0 z-30 aspect-video bg-black/35" />
           <img
             src="https://placekittens.com/450/250"
             alt=""
-            className="relative z-20 aspect-video w-full object-cover brightness-60 grayscale dark:brightness-40"
+            className="relative z-20 aspect-video w-full object-cover"
           />
           <CardHeader>
             <CardTitle>Project 3</CardTitle>
             <CardDescription>
               A really good portfolio piece.
             </CardDescription>
+            <ul className="flex gap-4 mt-2">
+              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Rails</li>
+              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Tailwind</li>
+              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Accessibility</li>
+            </ul>
           </CardHeader>
-          <CardFooter>
-            <Button className="w-full">Read More</Button>
+          <CardFooter className="mt-auto">
+            <Button className="w-full">View Project</Button>
           </CardFooter>
         </Card>
       </section>
