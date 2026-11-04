@@ -12,8 +12,8 @@ import { House } from "lucide-react"
 
 export function Welcome() {
   return (
-    <main className="flex-row bg-[#dde8e0] min-h-dvh">
-      <header className="flex px-6 py-4 w-full justify-between bg-[#6e8173]">
+    <main className="flex-row min-h-dvh bg-background">
+      <header className="flex px-6 py-4 w-full justify-between bg-secondary">
         <div className="flex items-center">
           <Avatar className="h-16 w-16">
             <AvatarImage src="https://placekittens.com/400/400" aria-hidden />
