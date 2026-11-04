@@ -25,13 +25,13 @@ export function Welcome() {
       <header className="flex px-6 py-4 w-full bg-secondary justify-center items-center">
         <div className="flex flex-col w-full max-w-6xl items-center justify-between sm:flex-row">
           <div className="flex items-center">
-            <Avatar className="h-16 w-16">
+            <Avatar className="h-16 w-16 border-2 border-secondary outline-3 outline-primary">
               <AvatarImage src="https://placekittens.com/400/400" aria-hidden />
               <AvatarFallback aria-hidden >AS</AvatarFallback>
             </Avatar>
             <div className="flex-col ml-3" >
-              <h1 className="text-2xl font-medium font-heading">Amber Suratte</h1>
-              <p className="text-base font-medium">Software Engineer</p>
+              <h1 className="text-3xl font-medium font-heading text-black">Amber Suratte</h1>
+              <p className="text-base font-medium text-secondary-foreground">Full-Stack Software Engineer</p>
             </div>
           </div>
           <NavigationMenu>
@@ -57,18 +57,18 @@ export function Welcome() {
             className="relative z-20 aspect-video w-full object-cover"
           />
           <CardHeader>
-            <CardTitle>Project 1</CardTitle>
+            <CardTitle className="text-xl normal-case tracking-normal">Project 1</CardTitle>
             <CardDescription className="text-base">
               A really good portfolio piece.
             </CardDescription>
-            <ul className="flex gap-4 mt-2">
-              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Rails</li>
-              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Tailwind</li>
-              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Accessibility</li>
+            <ul className="flex gap-2 mt-2">
+              <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Rails</li>
+              <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Tailwind</li>
+              <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Accessibility</li>
             </ul>
           </CardHeader>
           <CardFooter className="mt-auto">
-            <Button className="w-full">View Project</Button>
+            <Button className="w-full normal-case text-base tracking-normal">View Project</Button>
           </CardFooter>
         </Card>
         <Card className="relative mx-auto w-full max-w-md pt-0">
@@ -78,18 +78,18 @@ export function Welcome() {
             className="relative z-20 aspect-video w-full object-cover"
           />
           <CardHeader>
-            <CardTitle>Project 2</CardTitle>
-            <CardDescription>
+            <CardTitle className="text-xl normal-case tracking-normal">Project 2</CardTitle>
+            <CardDescription className="text-base">
               A really good portfolio piece.
             </CardDescription>
-            <ul className="flex gap-4 mt-2">
-              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Rails</li>
-              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Tailwind</li>
-              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Accessibility</li>
+            <ul className="flex gap-2 mt-2">
+              <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Rails</li>
+              <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Tailwind</li>
+              <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Accessibility</li>
             </ul>
           </CardHeader>
           <CardFooter className="mt-auto">
-            <Button className="w-full">View Project</Button>
+            <Button className="w-full normal-case text-base tracking-normal">View Project</Button>
           </CardFooter>
         </Card>
         <Card className="relative mx-auto w-full max-w-md pt-0">
@@ -99,18 +99,18 @@ export function Welcome() {
             className="relative z-20 aspect-video w-full object-cover"
           />
           <CardHeader>
-            <CardTitle>Project 3</CardTitle>
-            <CardDescription>
+            <CardTitle className="text-xl normal-case tracking-normal">Project 3</CardTitle>
+            <CardDescription className="text-base">
               A really good portfolio piece.
             </CardDescription>
-            <ul className="flex gap-4 mt-2">
-              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Rails</li>
-              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Tailwind</li>
-              <li className="text-sm text-accent-foreground bg-accent px-2 py-1">Accessibility</li>
+            <ul className="flex gap-2 mt-2">
+              <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Rails</li>
+              <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Tailwind</li>
+              <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Accessibility</li>
             </ul>
           </CardHeader>
           <CardFooter className="mt-auto">
-            <Button className="w-full">View Project</Button>
+            <Button className="w-full normal-case text-base tracking-normal">View Project</Button>
           </CardFooter>
         </Card>
       </section>
