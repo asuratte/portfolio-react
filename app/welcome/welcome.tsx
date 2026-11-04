@@ -51,7 +51,8 @@ export function Welcome() {
       </header>
       <section className="flex-row text-center pt-6 gap-6 mx-6 max-w-6xl xl:mx-auto">
         <h2 className="text-2xl font-medium font-heading text-black mb-3">Hey there! 😺</h2>
-        <h3 className="text-lg max-w-xl mx-auto leading-tight mb-3">I'm a product-minded, front-end-leaning software engineer with a keen eye for design and a passion for problem-solving.</h3>
+        <h3 className="text-lg max-w-xl mx-auto leading-tight mb-3 text-secondary-foreground">I'm a product-minded, front-end-leaning software engineer with a keen eye for design and a passion for problem-solving.</h3>
+        <p className="text-base max-w-xl mx-auto leading-tight mb-3 text-secondary-foreground font-medium">Take a peek at some of my recent projects 👇</p>
       </section>
       <section className="flex flex-col pt-6 gap-6 mx-6 max-w-6xl sm:flex-row xl:mx-auto">
         <Card className="relative mx-auto w-full max-w-md pt-0">
