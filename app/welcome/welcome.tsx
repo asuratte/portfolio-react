@@ -36,7 +36,7 @@ export function Welcome() {
             </div>
           </div>
           <NavigationMenu>
-            <NavigationMenuList className="gap-2">
+            <NavigationMenuList className="gap-2 mt-4 sm:mt-0">
               <NavigationMenuItem>
                   <NavigationMenuLink href="/" aria-label="Home" className="bg-accent-foreground text-accent p-2 hover:text-accent-foreground focus:text-accent-foreground"><FontAwesomeIcon icon={faHouse} className="text-2xl fa-fw" aria-hidden /></NavigationMenuLink>
               </NavigationMenuItem>
@@ -58,7 +58,7 @@ export function Welcome() {
           <h3 className="text-lg max-w-xl mx-auto leading-tight mb-3 text-secondary-foreground">I'm a product-minded, front-end-leaning software engineer with a keen eye for design and a passion for problem-solving.</h3>
           <p className="text-base max-w-xl mx-auto leading-tight mb-3 text-secondary-foreground font-medium">Take a peek at some of my recent projects 👇</p>
         </section>
-        <section className="flex flex-col pt-6 gap-6 mx-6 max-w-6xl sm:flex-row xl:mx-auto">
+        <section className="flex flex-col pt-6 gap-6 mx-6 max-w-6xl md:flex-row xl:mx-auto">
           <Card className="relative mx-auto w-full max-w-md pt-0">
             <img
               src="https://placekittens.com/450/250"
@@ -70,7 +70,7 @@ export function Welcome() {
               <CardDescription className="text-base">
                 A really good portfolio piece.
               </CardDescription>
-              <ul className="flex gap-2 mt-2">
+              <ul className="flex gap-2 mt-2 flex-wrap">
                 <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Rails</li>
                 <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Tailwind</li>
                 <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Accessibility</li>
@@ -91,7 +91,7 @@ export function Welcome() {
               <CardDescription className="text-base">
                 A really good portfolio piece.
               </CardDescription>
-              <ul className="flex gap-2 mt-2">
+              <ul className="flex gap-2 mt-2 flex-wrap">
                 <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Rails</li>
                 <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Tailwind</li>
                 <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Accessibility</li>
@@ -112,7 +112,7 @@ export function Welcome() {
               <CardDescription className="text-base">
                 A really good portfolio piece.
               </CardDescription>
-              <ul className="flex gap-2 mt-2">
+              <ul className="flex gap-2 mt-2 flex-wrap">
                 <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Rails</li>
                 <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Tailwind</li>
                 <li className="text-sm font-light text-accent-foreground bg-accent px-3 py-1 rounded-2xl">Accessibility</li>
