@@ -7,17 +7,18 @@ import {
   NavigationMenuTrigger,
 } from "~/components/ui/navigation-menu"
 import { Avatar, AvatarImage, AvatarFallback } from "~/components/ui/avatar"
-import { Icons } from "~/components/icons"
 import { Button } from "~/components/ui/button"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faSquareLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faHouse } from "@fortawesome/free-solid-svg-icons"
 import {
   Card,
-  CardAction,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "~/components/ui/card"
-import { House } from "lucide-react"
 
 export function Welcome() {
   return (
@@ -35,15 +36,17 @@ export function Welcome() {
             </div>
           </div>
           <NavigationMenu>
-            <NavigationMenuList>
+            <NavigationMenuList className="gap-2">
               <NavigationMenuItem>
-                  <NavigationMenuLink href="/" aria-label="Home"><House className="size-6" aria-hidden ></House ></NavigationMenuLink>
+                  <NavigationMenuLink href="/" aria-label="Home" className="bg-accent-foreground text-accent p-2 hover:text-accent-foreground focus:text-accent-foreground"><FontAwesomeIcon icon={faHouse} className="text-2xl fa-fw" aria-hidden /></NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuLink href="https://github.com/asuratte-instrumentl" target="_blank" aria-label="GitHub Profile"><Icons.gitHub className="size-6" aria-hidden /></NavigationMenuLink>
+                <NavigationMenuLink href="https://github.com/asuratte-instrumentl" target="_blank" aria-label="GitHub Profile" className="bg-accent-foreground text-accent p-2 hover:text-accent-foreground focus:text-accent-foreground">
+                  <FontAwesomeIcon icon={faGithub} className="text-2xl fa-fw" aria-hidden /></NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                  <NavigationMenuLink href="https://www.linkedin.com/in/asuratte/" target="_blank" aria-label="LinkedIn Profile"><Icons.linkedIn className="size-6" aria-hidden /></NavigationMenuLink>
+                <NavigationMenuLink href="https://www.linkedin.com/in/asuratte/" target="_blank" aria-label="LinkedIn Profile" className="bg-accent-foreground text-accent p-2 hover:text-accent-foreground focus:text-accent-foreground">
+                  <FontAwesomeIcon icon={faSquareLinkedin} className="text-2xl fa-fw" aria-hidden /></NavigationMenuLink>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
