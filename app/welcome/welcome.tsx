@@ -25,8 +25,8 @@ export function Welcome() {
       <header className="flex px-6 py-4 w-full bg-secondary justify-center items-center">
         <div className="flex flex-col w-full max-w-6xl items-center justify-between sm:flex-row">
           <div className="flex items-center">
-            <Avatar className="h-16 w-16 border-2 border-secondary outline-3 outline-primary">
-              <AvatarImage src="https://placekittens.com/400/400" aria-hidden />
+            <Avatar className="h-16 w-16 border-2 border-accent outline-3 outline-primary">
+              <AvatarImage src="../../public/amber_suratte_headshot_small.jpg" aria-hidden />
               <AvatarFallback aria-hidden >AS</AvatarFallback>
             </Avatar>
             <div className="flex-col ml-3" >
