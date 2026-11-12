@@ -6,18 +6,20 @@ import {
   CardHeader,
   CardTitle,
 } from "~/components/ui/card"
+import type { Project } from './types'
 
 interface ProjectCardProps {
-  key: string;
-  name: string,
-  short_description: string,
-  tags: string[],
-  call_to_action: string,
-  preview_image_source: string;
-
+  project: Project;
 }
 
-function ProjectCard({ name, short_description, tags, call_to_action, preview_image_source }: ProjectCardProps) {
+export default function ProjectCard({ project }: ProjectCardProps) {
+  const {
+    name,
+    short_description,
+    tags,
+    call_to_action,
+    preview_image_source,
+  } = project;
   return (
     <Card className="relative mx-auto w-full max-w-md pt-0">
       <img
@@ -42,5 +44,3 @@ function ProjectCard({ name, short_description, tags, call_to_action, preview_im
     </Card>
   )
 }
-
-export default ProjectCard;
