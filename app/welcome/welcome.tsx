@@ -1,5 +1,6 @@
 import ProjectList from "~/project_list"
 import Header from "~/header";
+import Footer from "~/footer"
 
 export function Welcome() {
   return (
@@ -13,9 +14,7 @@ export function Welcome() {
         </section>
         <ProjectList></ProjectList>
       </main>
-      <footer className="bg-accent-foreground p-3 text-center shrink-0">
-        <p className="text-xs text-accent">&copy; {new Date().getFullYear()} Amber Suratte</p>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }
