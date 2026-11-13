@@ -1,4 +1,4 @@
-import { Button } from "~/components/ui/button"
+import { buttonVariants } from "~/components/ui/button"
 import {
   Card,
   CardDescription,
@@ -6,6 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "~/components/ui/card"
+import { Link } from "react-router";
 import type { Project } from './types'
 
 interface ProjectCardProps {
@@ -39,7 +40,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </ul>
       </CardHeader>
       <CardFooter className="mt-auto">
-        <Button className="w-full normal-case text-base tracking-normal">{ call_to_action }</Button>
+        <Link
+          to={"/projects/" + project.id}
+          className={buttonVariants({ variant: "default", size: "default" })}
+        >
+          {call_to_action}
+        </Link>
       </CardFooter>
     </Card>
   )
