@@ -1,4 +1,4 @@
-import ProjectList from "~/project-list"
+import FeaturedProjects from "~/featured-projects"
 
 export function Welcome() {
   return (
@@ -10,7 +10,7 @@ export function Welcome() {
           <p className="text-base max-w-xl mx-auto leading-tight mb-3 text-secondary-foreground font-medium">Take a peek at some of my recent projects 👇</p>
         </section>
       </div>
-      <ProjectList></ProjectList>
+      <FeaturedProjects></FeaturedProjects>
     </div>
   );
 }

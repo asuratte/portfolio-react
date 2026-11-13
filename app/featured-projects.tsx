@@ -4,7 +4,7 @@ import ProjectCard from "./project-card";
 
 const projects: Project[] = projectsData;
 
-function ProjectList() {
+function FeaturedProjects() {
   return (
     <section className="flex flex-col pt-6 gap-6 mx-6 max-w-6xl md:flex-row xl:mx-auto">
       {projects.map((project) => (
@@ -13,4 +13,4 @@ function ProjectList() {
     </section>
   )
 }
-export default ProjectList;
+export default FeaturedProjects;
