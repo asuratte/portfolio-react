@@ -1,6 +1,4 @@
 import ProjectList from "~/project-list"
-import Header from "~/header";
-import Footer from "~/footer"
 
 export function Welcome() {
   return (
