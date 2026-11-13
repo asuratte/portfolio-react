@@ -1,6 +1,6 @@
 import projectsData from "../data/projects.json"
 import type { Project } from './types';
-import ProjectCard from "./project_card";
+import ProjectCard from "./project-card";
 
 const projects: Project[] = projectsData;
 
