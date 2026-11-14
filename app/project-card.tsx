@@ -42,7 +42,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <CardFooter className="mt-auto">
         <Link
           to={"/projects/" + project.id}
-          className={buttonVariants({ variant: "default", size: "default" })}
+          className={buttonVariants({ variant: "default", size: "default" }) + " w-full"}
         >
           {call_to_action}
         </Link>
