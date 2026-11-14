@@ -6,7 +6,8 @@
     "long_description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
     "tags": ["Ruby on Rails", "Accessibility", "Tailwind"],
     "call_to_action": "View project",
-    "preview_image_source": "https://placekittens.com/450/250"
+    "preview_image_source": "https://placekittens.com/450/250",
+    "detail_image_source": "https://placekittens.com/450/250"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "long_description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.",
     "tags": ["Ruby on Rails", "Hotwire", "Tailwind"],
     "call_to_action": "Read more",
-    "preview_image_source": "https://placekittens.com/650/700"
+    "preview_image_source": "https://placekittens.com/650/700",
+    "detail_image_source": "https://placekittens.com/650/700"
   },
   {
     "id": 3,
@@ -24,6 +26,7 @@
     "long_description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.",
     "tags": ["Ruby on Rails", "Accessibility"],
     "call_to_action": "Take a look",
-    "preview_image_source": "https://placekittens.com/450/280"
+    "preview_image_source": "https://placekittens.com/450/280",
+    "detail_image_source": "https://placekittens.com/450/280"
   }
 ]
