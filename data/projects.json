@@ -28,5 +28,25 @@
     "call_to_action": "Take a look",
     "preview_image_source": "https://placekittens.com/450/280",
     "detail_image_source": "https://placekittens.com/800/400"
+  },
+  {
+    "id": 4,
+    "name": "Project 4",
+    "short_description": "A pretty decent portfolio piece.",
+    "long_description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.",
+    "tags": ["Ruby on Rails", "JavaScript"],
+    "call_to_action": "Take a look",
+    "preview_image_source": "https://placekittens.com/850/700",
+    "detail_image_source": "https://placekittens.com/850/1000"
+  },
+  {
+    "id": 5,
+    "name": "Project 5",
+    "short_description": "An awesome portfolio piece.",
+    "long_description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.",
+    "tags": ["Ruby on Rails", "JavaScript"],
+    "call_to_action": "Take a look",
+    "preview_image_source": "https://placekittens.com/1050/600",
+    "detail_image_source": "https://placekittens.com/2000/1000"
   }
 ]

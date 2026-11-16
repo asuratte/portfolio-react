@@ -4,12 +4,14 @@ import ProjectCard from "./project-card";
 import { Link } from "react-router";
 
 const projects: Project[] = projectsData;
+const featuredProjectIds = [1,2,3]
 
 function FeaturedProjects() {
   return (
     <section className="flex flex-col items-center">
       <div className="flex flex-col pt-6 gap-6 mx-6 max-w-6xl md:flex-row xl:mx-auto">
-        {projects.map((project) => (
+        {projects.filter((project) => featuredProjectIds.includes(project.id))
+          .map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
