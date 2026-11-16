@@ -7,7 +7,7 @@
     "tags": ["Ruby on Rails", "Accessibility", "Tailwind"],
     "call_to_action": "View project",
     "preview_image_source": "https://placekittens.com/450/250",
-    "detail_image_source": "https://placekittens.com/450/250"
+    "detail_image_source": "https://placekittens.com/800/400"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "tags": ["Ruby on Rails", "Hotwire", "Tailwind"],
     "call_to_action": "Read more",
     "preview_image_source": "https://placekittens.com/650/700",
-    "detail_image_source": "https://placekittens.com/650/700"
+    "detail_image_source": "https://placekittens.com/800/400"
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@
     "tags": ["Ruby on Rails", "Accessibility"],
     "call_to_action": "Take a look",
     "preview_image_source": "https://placekittens.com/450/280",
-    "detail_image_source": "https://placekittens.com/450/280"
+    "detail_image_source": "https://placekittens.com/800/400"
   }
 ]

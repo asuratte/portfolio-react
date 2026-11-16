@@ -20,7 +20,7 @@ export default function Header() {
             <AvatarFallback aria-hidden >AS</AvatarFallback>
           </Avatar>
           <div className="flex-col ml-3" >
-            <h1 className="text-3xl font-medium font-heading text-black">Amber Suratte</h1>
+            <p className="text-3xl font-medium font-heading text-black">Amber Suratte</p>
             <p className="text-base font-medium text-secondary-foreground">Full Stack Software Engineer</p>
           </div>
         </div>
